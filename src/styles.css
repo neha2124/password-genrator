@@ -1,0 +1,60 @@
+.container {
+  background: black;
+  opacity: 0.8;
+
+  color: white;
+  padding: 1rem 1.5rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background: #2a8b8b;
+  padding: 10px;
+  color: white;
+  text-transform: capitalize;
+  /* font-weight: 700; */
+  cursor: pointer;
+}
+.copy-btn {
+  height: 30px;
+  font-size: 30px;
+}
+.character-length span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.password-range {
+  width: 100%;
+}
+.checkBoxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* padding: 10px; */
+  font-weight: 700;
+}
+.checkBoxes div {
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+}
+.genrate-btn {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  /* padding: 20px; */
+}
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+}
